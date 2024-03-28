@@ -1,0 +1,142 @@
+.Frame10 {
+  width: 1510px;
+  height: 1177px;
+  top: 6845px;
+
+  background: rgba(246, 246, 246, 1);
+
+
+  position: absolute;
+  top: 6545px;
+}
+
+.frequent {
+  width: 661px;
+  height: 59px;
+  position: relative;
+  top: 107px;
+  left: 390px;
+
+  font-family: "Garnett Semibold";
+  font-size: 42px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 58.51px;
+  text-align: center;
+  color: rgba(92, 39, 192, 1);
+}
+
+.frequentSpan {
+  font-family: "Garnett Regular";
+  font-size: 42px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 58.51px;
+  text-align: center;
+}
+
+.wehavecompiled {
+  width: 818px;
+  height: 44px;
+  position: relative;
+  top: 118px;
+  left: 311px;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: center;
+  color: rgba(28, 28, 28, 1);
+}
+
+.wehavePara {
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: center;
+  color: rgba(28, 28, 28, 1);
+}
+
+.questions {
+  width: 854px;
+  height: 713px;
+  position: relative;
+  top: 196px;
+  left: 293px;
+  gap: 16px;
+  opacity: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.question {
+  width: 854px;
+  height: 139px;
+  position: relative;
+  top: -50px;
+  left: 28px;
+ 
+  border-radius: 10px ;
+  border: 2px 0px 0px 0px;
+  border: 2px solid rgba(92, 39, 192, 1);
+}
+
+.question1 {
+  width: 339px;
+  height: 22px;
+  position: relative;
+  top: -10px;
+  left: 28px;
+
+  opacity: 0px;
+  font-family: "Poppins";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+ 
+}
+
+.answer1 {
+  width: 794px;
+  height: 53px;
+  position: relative;
+  top: 20px;
+  left: 28px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 22px;
+  text-align: left;
+  color: rgba(28, 28, 28, 1);
+}
+
+.plus{
+    width: 24px;
+height: 24px;
+position: relative;
+top: 15px;
+left: 802px;
+padding: 4px 0px 0px 0px;
+gap: 0px;
+opacity: 0px;
+
+}
+
+.questionwithout{
+    width: 854px;
+height:66px;
+gap: 0px;
+border-radius: 10px;
+border: 2px 0px 0px 0px;
+justify: space-between;
+opacity: 0px;
+position: relative;
+  top: -20px;
+  left: 28px;
+
+    border: 2px solid rgba(92, 39, 192, 1);
+  
+}

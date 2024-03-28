@@ -1,0 +1,110 @@
+.statsparent {
+    background-color: #f7f7f7;
+    font-family: "Space Grotesk";
+    font-size: 50px;
+    height: 402px;
+    left: 1px;
+ 
+    position: absolute;
+    top: 5266px;
+    width: 1518px;
+}
+
+.stats {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+    justify-content: flex-start;
+    left: calc(50% - 194px);
+    position: absolute;
+    top: calc(50% - 84px);
+    width: 796px;
+    color: #5c27c0;
+}
+.nocreditrequired {
+    position: relative;
+    color: #5c27c0;
+}
+
+.reductioninyour {
+    align-self: stretch;
+    color: #3b3b3b;
+    font-family: "Poppins";
+    font-size: 18px;
+    position: relative;
+    text-align: center;
+    
+}
+
+.statschild {
+    align-self: stretch;
+    border-right: 2px solid #5c27c0;
+    box-sizing: border-box;
+    position: relative;
+    width: 2px;
+}   
+
+.stats1 {
+    align-items: center;
+    display: flex;
+    flex: 1 1;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: flex-start;
+}
+
+.nocreditrequired {
+    position: relative;
+}
+
+.reductioninyour {
+    align-self: stretch;
+    color: #3b3b3b;
+    font-family: "Poppins";
+    font-size: 18px;
+    position: relative;
+    text-align: center;
+}
+
+.statschild {
+    align-self: stretch;
+    border-right: 2px solid #5c27c0;
+    box-sizing: border-box;
+    position: relative;
+    width: 2px;
+}
+
+.stats1 {
+    align-items: center;
+    display: flex;
+    flex: 1 1;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: flex-start;
+}
+
+.reductioninyour {
+    align-self: stretch;
+    color: #3b3b3b;
+    font-family: "Poppins";
+    font-size: 18px;
+    position: relative;
+    text-align: center;
+}
+
+.howreworkaicontainer {
+    display: inline-block;
+    font-family:" Garnett Medium";
+    font-size: 38px;
+    left: calc(50% - 601px);
+    position: absolute;
+    top: calc(50% - 106px);
+    width: 381px;
+    color: #5c27c0;
+}
+
+.hiringplatformfor {
+    font-family: "Garnett Regular";
+    color: #5c27c0;
+}

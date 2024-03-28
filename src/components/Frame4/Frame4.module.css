@@ -1,0 +1,158 @@
+.mainConatiner {
+    width: 1520px;
+    height: 743px;
+    position: absolute;
+    top: 1863px;
+    left: -2px;
+    background-color: rgba(246, 246, 246, 1);
+  
+ 
+  }
+  .mainConatiner h2 {
+    width: 997px;
+    height: 50px;
+    position: absolute;
+    top: 101px;
+    left: 221px;
+    font-family: "Garnett Semibold", sans-serif;
+    font-size: 42px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 50px;
+    text-align: center;
+    color: rgba(92, 39, 192, 1);
+  }
+
+  .mainConatiner h2 span {
+    font-family: "Garnett Regular", sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px;
+    text-align: center;
+  }
+  
+  .mainBox{
+    width: 80%;
+height: 282px;
+position: absolute;
+top: 244px;
+left: 180px;
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(290px,1fr));
+color: rgba(92, 39, 192, 1);
+background: white;
+
+
+}
+.box{
+    width: 399px;
+height:282px;
+gap: 18px;
+opacity: 0px;
+/* background-color: aqua; */
+position: relative;
+
+
+} 
+
+.boxx{
+    width: 380px;
+height:282px;
+gap: 18px;
+opacity: 0px;
+background: rgba(239, 229, 255, 1);
+
+position: relative;
+
+
+}
+.boxImg1{
+    width: 84px;
+    height: 84px;
+    position: absolute;
+    top:0;
+    right:-15px;
+
+}
+
+.boxImg2{
+    width: 84px;
+    height: 84px;
+    position: absolute;
+    bottom:0;
+    right:-10px;
+
+}
+
+.boxImg3{
+    width: 84px;
+    height: 84px;
+    position: absolute;
+    top:0;
+    right:18px;
+
+}
+.boxHead1{
+    margin-top: 20px;
+    width: 343.67px;
+height: 66px;
+font-family: "Garnett Semibold",sans-serif;
+font-size: 24px;
+
+font-weight: 600;
+line-height: 33.43px;
+position: absolute;
+top: 20px;
+left:25px;
+
+
+}
+
+.boxDesc{
+    margin: 0px 30px 60px 30px;
+    width: 343.67px;
+height: 81px;
+font-family: "Poppins",sans-serif;
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+text-align: left;
+color: rgba(29, 29, 29, 1);
+position: absolute;
+top: 120px;
+
+}
+
+.F4Btn {
+    width:164px;
+    height:60px;
+    position: absolute;
+    top: 630px;
+    left: 636.5px;
+    padding: 16px 30px 16px 30px;
+    gap: 16px;
+    border-radius: 10px;
+    border: 2px 0px 0px 0px;
+    opacity: 0px;
+    background: rgba(246, 246, 246, 1);
+    border: 2px solid rgba(92, 39, 192, 1);
+    box-shadow: 0px 8px 40px 0px rgba(0, 0, 0, 0.22);
+
+    
+  }
+
+  .btnText {
+    width: 169px;
+    height: 28px;
+  position: absolute;
+  top:15px;    
+  left: 30px;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: rgba(92, 39, 192, 1);
+  }
+  

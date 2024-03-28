@@ -1,0 +1,83 @@
+
+.container{
+    width: 1500px;
+    height: 587px;
+    position: absolute;
+    top: 7722px;
+    
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.box{
+    width: 1175px;
+height: 219px;
+position: relative;
+top: 83px;
+left: 125px;
+gap: 20px;
+opacity: 0px;
+
+}
+
+.boxhead{
+  
+font-family: "Garnett Semibold";
+font-size: 42px;
+font-style: italic;
+font-weight: 600;
+line-height: 58.51px;
+text-align: left;
+color: rgba(92, 39, 192, 1);
+
+
+
+}
+
+.boxdesc{
+ 
+padding: 15px 0px 15px 0px;
+font-family: "Poppins";
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+text-align: left;
+color: rgba(31, 31, 31, 1);
+
+
+}
+.F11Btn {
+    width:  476px;
+height:  70px;
+position: relative;
+top: 152px;
+left: 125px;
+padding: 21px 56px 21px 56px;
+gap: 10px;
+border-radius: 20px;
+opacity: 0px;
+
+    background: rgba(92, 39, 192, 1);
+    border: 2px solid rgba(92, 39, 192, 1);
+    
+    box-shadow: 0px 8px 40px 0px rgba(0, 0, 0, 0.22);
+
+    
+  }
+
+  .F11btnText {
+    width: 364px;
+height: 28px;
+
+
+  position: relative;
+    font-family: "Poppins", sans-serif;
+ 
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+color:  rgba(255, 251, 251, 1);
+;    
+  }

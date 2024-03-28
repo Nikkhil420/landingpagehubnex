@@ -1,0 +1,103 @@
+.frame7{
+    width: 1518px;
+    height: 1161px;
+    position: absolute;
+    top: 4385px;
+  
+
+}
+
+.F7head{
+    width: 773px;
+    height: 108px;
+    text-align: left;   
+    position: relative;
+
+    font-weight: 600;
+    line-height: 50px;
+    color: rgba(92, 39, 192, 1);
+}
+
+.F7mainhead{
+    width: 496px;
+height: 59px;
+position: relative;
+top: 88px;
+left: 110px;
+gap: 0px;
+opacity: 0px;
+font-family: "Garnett Semibold";
+font-size: 42px;
+font-style: italic;
+font-weight: 600;
+line-height: 58.51px;
+text-align: left;
+color: rgba(92, 39, 192, 1);
+
+}
+.F7mainheadspan{
+
+    font-family: "Garnett Regular";
+font-size: 42px;
+font-style: italic;
+font-weight: 600;
+line-height: 58.51px;
+text-align: left;
+color: black;
+
+}
+.F7subhead{
+
+    width: 269px;
+height: 27px;
+position: relative;
+top: 80px;
+left: 120px;
+color:  rgba(24, 24, 24, 1);
+;
+font-family: "Poppins";
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+text-align: left;
+
+
+
+
+}
+
+.f7mainbox{
+    position: relative;
+    top: 90px;
+   
+
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(380px,0));
+justify-content: space-evenly;
+align-items: center;
+}
+
+.f7box1{
+    display: flex;
+    flex-direction: column;
+}
+.f7box1 img{
+   width: 383px;
+   height: 311px;
+}
+.f7box2{
+    display: flex;
+    flex-direction: column;
+}
+.f7box2 img{
+   width: 383px;
+   height: 311px;
+}
+.f7box3{
+    display: flex;
+    flex-direction: column;
+}
+.f7box3 img{
+   width: 383px;
+   height: 311px;
+}

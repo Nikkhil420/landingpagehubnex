@@ -1,0 +1,112 @@
+/* Navbar.module.css */
+
+.navbar {
+  display: flex;
+ 
+  justify-content: space-between;
+  align-items: center;
+  padding: 34px 120px; 
+  background-color: #FFFFFF; 
+  box-shadow : 0 5px 10px rgba(92, 92, 92, 0.5);
+}
+
+.logo {
+  position: relative;
+  width: 139px;
+  height: 40px;
+  transform: rotate(1deg);
+}
+
+.nav {
+  padding: 10px;
+  display: flex;
+  width: 607px;
+  height: 24px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.NavItems {
+  margin: 0 10px; /* Add margin between nav items */
+}
+
+.NavItems a {
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  color: #8e8e8e;
+  font-weight: 600; 
+  font-size: 16px;
+  text-decoration: none;
+}
+.NavItems a:hover {
+  color: #5c27c0;
+
+  text-decoration: underline;
+  transition: 0.3s ease;
+}
+.NavItems a::before {
+  content: "";
+  position: absolute;
+  bottom: -3px;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background-color: white; /* Adjust the color of the underline */
+  transition: width 0.8s ease; /* Add transition for smooth animation */
+}
+
+.NavItems a:hover::before {
+  width: 100%; /* Expand the underline on hover */
+}
+.NavItems a::after {
+  content: "";
+  position: absolute;
+  bottom: -3px;
+  right: 50%;
+  width: 0;
+  height: 2px;
+  background-color: white; /* Adjust the color of the underline */
+  transition: width 0.8s ease; /* Add transition for smooth animation */
+}
+.NavItems a:hover::after {
+  width: 100%; /* Expand the underline on hover */
+}
+
+.NavbarButtons {
+  width: 298px;
+  height: 44px;
+}
+
+.NavbarButton1 {
+  background-color: white;
+  font-family: "Poppins", sans-serif;
+  color: #5c27c0;
+  display: inline-block;
+  width: 129px;
+  height: 44px;
+  padding: 10px 20px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  border: 2px solid #5c27c0;
+  transition: background-color 0.2s ease-in-out;
+}
+.NavbarButton2 {
+  background-color: #5c27c0;
+  display: inline-block;
+  width: 129px;
+  height: 44px;
+  padding: 10px 20px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  color: white;
+  transition: background-color 0.2s ease-in-out;
+}

@@ -1,0 +1,34 @@
+.brandContainer {
+  width: auto;
+  height: 100px;
+  position: relative;
+  top: 580px;
+  padding: 50px 0px 50px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: baseline;
+  gap: 20px;
+  background-color: rgba(239, 229, 255, 1);
+}
+
+.brandText {
+  width: 312px;
+  height: 30px;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+text-align: center;
+
+
+}
+
+.brandIcons{
+    width: 1440px;
+    height: 42px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}

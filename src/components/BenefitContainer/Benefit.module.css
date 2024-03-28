@@ -1,0 +1,91 @@
+.mainConatiner {
+  width: 1440px;
+  height: 943px;
+  position: absolute;
+  top: 920px;
+  left: -2px;
+}
+.mainConatiner h2 {
+  width: 997px;
+  height: 50px;
+  position: absolute;
+  top: 101px;
+  left: 221px;
+  font-family: "Garnett Semibold", sans-serif;
+  font-size: 42px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 50px;
+  text-align: center;
+  color: rgba(92, 39, 192, 1);
+}
+
+.mainConatiner h2 span {
+  font-family: "Garnett Regular", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50px;
+  text-align: center;
+}
+
+.mainBox{
+    width: 80%;
+height: 100vh;
+position: absolute;
+top: 244px;
+left: 180px;
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(290px,1fr));
+
+
+}
+.box{
+    width: 343.67px;
+height:236px;
+gap: 18px;
+opacity: 0px;
+
+
+}
+.box img{
+    width: 50px;
+height: 50px;
+margin-bottom: 10px; 
+}
+.boxHead1{
+    width: 343.67px;
+height: 66px;
+font-family: "Garnett Semibold",sans-serif;
+font-size: 24px;
+
+font-weight: 600;
+line-height: 33.43px;
+text-align: left;
+
+
+}
+.boxHead2{
+    display: block;
+    font-family: "Garnett Semibold",sans-serif;
+font-size: 24px;
+font-style: italic;
+font-weight: 600;
+line-height: 33.43px;
+text-align: left;
+margin-bottom: 10px; 
+
+}
+
+.boxDesc{
+    margin-top: 10px; 
+    width: 343.67px;
+height: 84px;
+font-family: "Poppins",sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+text-align: left;
+color: rgba(29, 29, 29, 1);
+
+}
