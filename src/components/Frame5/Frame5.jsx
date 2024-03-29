@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './Frame5.module.css'
-import TickmarkLogo from '../../images/RightTick.png'
+
 import wrong from '../../images/wrong.png'
 import right from '../../images/right.png'
 import c2 from '../../images/c2.png'
