@@ -2,7 +2,7 @@
 import './App.css';
 import BenefitConatiner from './components/BenefitContainer/BenefitConatiner';
 import Brands from './components/Brands/Brands';
-import Frame10 from './components/Frame10/Frame10';
+import Frame10 from './components/Frame10/Frame10.jsx';
 import Frame11 from './components/Frame11/Frame11';
 import Frame4 from './components/Frame4/Frame4';
 import Frame5 from './components/Frame5/Frame5';
