@@ -1,6 +1,6 @@
 .brandContainer {
   width: auto;
-  height: 100px;
+  height: 70px;
   position: relative;
   top: 580px;
   padding: 50px 0px 50px 0px;
@@ -31,4 +31,32 @@ text-align: center;
     justify-content: space-around;
     align-items: center;
     
+}
+
+@media (max-width: 768px) {
+  .brandContainer {
+    width: 800px;
+    height: 100px;
+    padding: 20px 0;
+    top: 360px;
+    background-color: rgba(239, 229, 255, 1);
+  }
+
+  .brandText {
+    font-size: 20px;
+    
+  }
+
+  .brandIcons {
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 730px;
+    
+  }
+
+  .brandIcons img {
+    max-width: 100px;
+    margin-left: 25px;
+  }
 }

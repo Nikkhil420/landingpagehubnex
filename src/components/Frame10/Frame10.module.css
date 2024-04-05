@@ -1,13 +1,11 @@
 .Frame10 {
   width: 1510px;
   height: 1177px;
-  top: 6845px;
-
   background: rgba(246, 246, 246, 1);
 
 
   position: absolute;
-  top: 6545px;
+  top: 6950px;
 }
 
 .frequent {
@@ -139,4 +137,57 @@ position: relative;
 
     border: 2px solid rgba(92, 39, 192, 1);
   
+}
+
+@media screen and (max-width: 768px){
+  .Frame10 {
+    width: 720px;
+    top: 9100px;
+    left: 60px;
+  }
+  
+  .frequent {
+   left: 0px;
+  }
+
+  .wehavecompiled {
+ 
+    left: 0px;
+  width: 700px;
+  }
+
+  .questions {
+    width: 750px;
+    left: 0;
+
+  }
+
+  .question {
+    width: 654px;
+    height: 160px;
+    top: -50px;
+    left: 30px;
+  }
+
+  .question1 {
+    left: 28px;
+  }
+
+  .answer1 {
+    width: 600px;
+    top: 10px;
+    left: 28px;
+  }
+
+  .plus{
+top: 15px;
+left: 562px;
+}
+
+.questionwithout{
+  width: 650px;
+height:66px;
+
+}
+
 }

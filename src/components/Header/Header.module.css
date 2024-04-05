@@ -259,3 +259,249 @@ left: 870px;
     top: 97px;
     left: 470px;
   }
+
+  .spanDesc{
+    font-family: "Poppins", sans-serif;
+line-height: 22px;
+    display: block;
+    width: 685px;
+    height: 44px;
+    gap: 0px;
+    opacity: 0px;
+    
+    font-size: 14px;
+    text-align: left;
+  }
+
+/*  mob*/
+
+/* Mobile Styles */
+@media screen and (max-width: 768px) {
+  .container1 {
+    top: -30px;
+    left: 5px;
+    width: 780px;
+    height: auto;
+
+  }
+
+  header{
+    height: 170px;
+    width: 550px;
+  
+  }
+
+  h2 {
+    font-size: 32px;
+    line-height: 42px;
+  }
+
+  .span1,
+  .span2 {
+    width: 500px;
+    font-size: 40px;
+    line-height: 52px;
+    position: absolute;
+    top: 180px;
+    left: 10px;
+  }
+
+  .span2 {
+    font-size: 40px;
+    line-height: 52px;
+    position: absolute;
+    top: 230px;
+    left: 10px;
+  }
+
+  .spanDesc{
+    position: absolute;
+    top: 290px;
+    left: 10px;
+    width: 450px;
+    line-height: 24px;
+   display: block;
+        font-family: "Poppins", sans-serif;
+        font-size: 12px;
+        text-align: left;
+  }
+ 
+  .HeaderBtn {
+    width: 180px;
+    height: 50px;
+    padding: 15px 30px;
+    top: 360px;
+    left: 10px;
+  }
+
+  .btnText {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .points {
+    top: 430px;
+    left: 20px;
+  }
+
+.pictureContainerGroup{
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  top: 200px;
+  left: 650px; 
+}
+
+.statsGroupIcon1 {
+  width: 24px;
+  height: 24px;
+  top: 10px;
+  left: 10px;
+}
+
+.statsGroupIcon2 {
+  width: 24px;
+  height: 24px;
+  top: 10px;
+  left: 10px;
+}
+.stats1{
+  width: 140px;
+  height: 15%;
+  top: 145px;
+  left: -215px;
+  background: rgba(92, 39, 192, 1);
+}
+.statsDesc1 {
+ 
+  font-size: 10px;
+  top: 4px;
+  left: 50px;
+}
+.statsDesc2 {
+
+  font-size: 10px;
+  top: 20px;
+  left: 40px;
+}
+ 
+  .stats2 {
+    width: 150px;
+  height: 15%;
+    top: 135px;
+    left: -80px;
+    background: rgba(92, 39, 192, 1);
+  }
+  .statsDesc3 {
+ 
+    font-size: 10px;
+    top: 4px;
+    left: 50px;
+  }
+  .statsDesc4 {
+  
+    font-size: 10px;
+    top: 20px;
+    left: 40px;
+  }
+ 
+
+  .stats1,
+  .stats2,
+  .GroupPicture {
+    position: relative;
+    margin-top: 20px;
+  }
+
+  .statsDesc1,
+  .statsDesc2,
+  .statsDesc3,
+  .statsDesc4 {
+    font-size: 10px;
+    line-height: 24px;
+    color: white;
+    width: 150px;
+  
+
+  }
+
+  .GroupPicture {
+    width: 230px;
+    height: 230px;
+    top: -145px;
+    left: -100px;
+    margin-top: 20px;
+    /* margin-left: auto;
+    margin-right: auto; */
+  }
+
+  .GroupPicture img {
+    width: 100%; /* Ensure the image fills the circle */
+    height: 100%; /* Allow the height to adjust based on the aspect ratio */
+    object-fit: cover; /* Maintain aspect ratio while covering the circle */
+  }
+
+  .ellipse {
+    width: 200px;
+    height: 200px;
+    top: -30px;
+    left: auto;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* Tablet Styles */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .container1 {
+    width: 80%;
+    top: 250%;
+    left: 10%;
+  
+  }
+
+  h2 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .span1,
+  .span2 {
+    font-size: 48px;
+    line-height: 60px;
+  }
+
+  .HeaderBtn {
+    width: 250px;
+    height: 60px;
+    padding: 20px 40px;
+    top: 100px;
+    left: 10%;
+  }
+
+  .btnText {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .points {
+    top: 420px;
+    left: 10%;
+  }
+
+  .GroupPicture {
+    width: 300px;
+    height: 300px;
+    margin-top: 30px;
+  }
+
+  .ellipse {
+    width: 300px;
+    height: 300px;
+    margin-top: 30px;
+  }
+  
+
+
+}

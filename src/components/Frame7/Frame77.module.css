@@ -1,0 +1,246 @@
+section{
+    width: 1518px;
+    height: 1161px;
+    position: absolute;
+    top: 4385px;
+  
+
+}
+
+.F7head{
+    width: 773px;
+    height: 108px;
+    text-align: left;   
+    position: relative;
+    top: 0px;
+    left: 60px;
+
+    font-weight: 600;
+    line-height: 50px;
+    color: rgba(92, 39, 192, 1);
+}
+
+.F7mainhead{
+    width: 496px;
+height: 59px;
+position: relative;
+top: 88px;
+left: 110px;
+gap: 0px;
+opacity: 0px;
+font-family: "Garnett Semibold";
+font-size: 42px;
+font-style: italic;
+font-weight: 600;
+line-height: 58.51px;
+text-align: left;
+color: rgba(92, 39, 192, 1);
+
+}
+.F7mainheadspan{
+
+    font-family: "Garnett Regular";
+font-size: 42px;
+font-style: italic;
+font-weight: 600;
+line-height: 58.51px;
+text-align: left;
+color: black;
+
+}
+.F7subhead{
+
+    width: 269px;
+height: 27px;
+position: relative;
+top: 80px;
+left: 120px;
+color:  rgba(24, 24, 24, 1);
+;
+font-family: "Poppins";
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+text-align: left;
+
+
+
+
+}
+
+.mainBox{
+    width: 80%;
+height: 100vh;
+position: absolute;
+top: 204px;
+left: 140px;
+/* background-color: aqua; */
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+
+
+}
+.box{
+    width: calc(90%/3);
+    height: 852px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.reworkHasBeen {
+    align-self: stretch;
+    position: relative;
+    line-height: 27px;
+  }
+  .letsTalkIcon {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .theresaWebb {
+    margin: 0;
+    align-self: stretch;
+    position: relative;
+    font-size: inherit;
+    line-height: 32px;
+    font-weight: 400;
+    font-family: inherit;
+  }
+  .hrManagerAmazon {
+    position: relative;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+    font-family: "Poppins";
+    color: #6a6a6a;
+  }
+
+  .testBox1,
+.container,
+.telcos {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.container {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 40px 0 0;
+  box-sizing: border-box;
+  min-width: 178px;
+}
+.testBox1,
+.telcos {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  gap: 19px;
+  font-size: 24px;
+  color: #5c27c0;
+  font-family: "Garnett Regular";
+}
+.testBox1 {
+  border-radius: 16px;
+  background-color: #eee5ff;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  gap: 30px;
+  text-align: left;
+  font-size: 18px;
+  color: #000;
+  font-family: "Poppins";
+}
+
+
+  @media screen and (max-width: 1400px) {
+    .stroke-properties {
+      gap: 43px 86px;
+    }
+  }
+  @media screen and (max-width: 1125px) {
+    .fill-pattern {
+      padding-bottom: 138px;
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 825px) {
+    .customer-testimonials {
+      font-size: 34px;
+    }
+    .stroke-properties {
+      gap: 21px 86px;
+    }
+    .fill-pattern {
+      padding-bottom: 90px;
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .customer-testimonials {
+      font-size: 25px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .theresaWebb, .hrManagerAmazon {
+      font-size: 14px;
+      line-height: 26px;
+    }
+    .reworkHasBeen{
+      font-size: 16px;
+    }
+    .container {
+      padding-right: 20px;
+      box-sizing: border-box;
+    }
+    .telcos {
+      flex-wrap: nowrap;
+    }
+
+
+    .letsTalkIcon{
+      width: 25px;
+      height: 25px;
+    }
+    .Frame77{
+      width: 800px;
+      height: 1161px;
+      position: absolute;
+      top: 5300px;
+      left: 0px;
+    }
+
+
+    .mainBox{
+      width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 204px;
+  left: 00px;
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  
+  
+  }
+  .box{
+      width: 90/3;
+      height: 1100px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      
+  }
+  
+
+
+  }

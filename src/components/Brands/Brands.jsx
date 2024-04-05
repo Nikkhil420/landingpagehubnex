@@ -6,6 +6,7 @@ import nokia from '../../images/nokia.png'
 import spotify from '../../images/spotify.png'
 
 
+
 const Brands = () => {
   return (
     <div className={styles.brandContainer}>
@@ -23,8 +24,10 @@ const Brands = () => {
           <img src={amazon} alt="" />   
    
         </div>
-
+     
     </div>
+    
+    
   )
 }
 

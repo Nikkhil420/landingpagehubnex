@@ -10,7 +10,7 @@ import box6 from '../../images/box6.png'
 const BenefitConatiner = () => {
   return (
     <div className={styles.mainConatiner}>
-        <h2>Our Amazing Benefits <span> Helpful For Your Hiring</span></h2>
+        <h2 className={styles.mainConatinerh2}>Our Amazing Benefits <span className={styles.mainConatinerspan}> Helpful For Your Hiring</span></h2>
         
 
         <div className={styles.mainBox}>
@@ -72,4 +72,4 @@ const BenefitConatiner = () => {
   )
 }
 
-export default BenefitConatiner
+export default BenefitConatiner;

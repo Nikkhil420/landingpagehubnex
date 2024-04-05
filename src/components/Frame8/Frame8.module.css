@@ -6,7 +6,7 @@
     left: 1px;
  
     position: absolute;
-    top: 5266px;
+    top: 5500px;
     width: 1518px;
 }
 
@@ -99,6 +99,7 @@
     font-size: 38px;
     left: calc(50% - 601px);
     position: absolute;
+    font-weight: 600;
     top: calc(50% - 106px);
     width: 381px;
     color: #5c27c0;
@@ -107,4 +108,53 @@
 .hiringplatformfor {
     font-family: "Garnett Regular";
     color: #5c27c0;
+    font-weight: 400;
+    font-size: 36px;
+}
+
+@media screen and (max-width: 768px){
+
+    .statsparent{
+        width: 760px;
+        height: 402px;
+        left: 1px;
+     
+        position: absolute;
+        top: 6500px;
+        
+    }
+
+    .stats {
+        align-items: flex-start;
+        display: flex;
+        flex-direction: row;
+        gap: 18px;
+        justify-content: flex-start;
+        
+        position: relative;
+        top: 160px;
+        left: 0px;
+        width: 706px;
+        color: #5c27c0;
+    }
+
+    .howreworkaicontainer {
+        display: inline-block;
+        font-family:" Garnett Medium";
+        font-size: 38px;
+        
+        position: relative;
+        top: -150px;
+        left: 110px;
+        width: 581px;
+        color: #5c27c0;
+    }
+    
+    .hiringplatformfor {
+        font-family: "Garnett Regular";
+        color: #5c27c0;
+        font-weight: 400;
+        font-size: 34px;
+    }
+
 }

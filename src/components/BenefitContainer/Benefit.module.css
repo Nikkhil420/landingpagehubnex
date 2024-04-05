@@ -5,10 +5,11 @@
   top: 920px;
   left: -2px;
 }
-.mainConatiner h2 {
+.mainConatinerh2 {
   width: 997px;
   height: 50px;
-  position: absolute;
+
+  position: relative;
   top: 101px;
   left: 221px;
   font-family: "Garnett Semibold", sans-serif;
@@ -16,11 +17,11 @@
   font-style: italic;
   font-weight: 600;
   line-height: 50px;
-  text-align: center;
+  text-align: left;
   color: rgba(92, 39, 192, 1);
 }
 
-.mainConatiner h2 span {
+.mainConatinerspan {
   font-family: "Garnett Regular", sans-serif;
   font-size: 40px;
   font-style: normal;
@@ -88,4 +89,59 @@ line-height: 28px;
 text-align: left;
 color: rgba(29, 29, 29, 1);
 
+}
+
+@media screen and (max-width: 768px) {
+
+  .mainConatiner {
+    width: 760px;
+  height: 943px;
+  position: absolute;
+  top: 630px;
+  left: -100px;
+  }
+  .mainConatinerh2 {
+    width: 800px;
+    height: 50px;
+    position: relative;
+    top: 90px;
+    left: 100px;
+    font-family: "Garnett Semibold", sans-serif;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 50px;
+    text-align: center;
+    color: rgba(92, 39, 192, 1);
+  }
+  
+  .mainConatinerspan {
+    font-family: "Garnett Regular", sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px;
+    text-align: center;
+  }
+  .mainBox{
+    width: 100%;
+height: 100vh;
+position: absolute;
+top: 200px;
+left: 140px;
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(290px,1.9fr));
+
+
+
+}
+
+  .boxHead1,
+  .boxHead2 {
+    font-size: 1.2rem;
+  }
+
+  .boxDesc {
+    font-size: 0.9rem;
+  }
 }

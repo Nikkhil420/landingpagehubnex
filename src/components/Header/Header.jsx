@@ -4,6 +4,7 @@ import Navbar from "../Navbar/Navbar";
 import TickmarkLogo from "../../images/RightTick.png"
 import groupIcon from '../../images/groupIcon.png'
 import groupPicture from '../../images/groupPicture.png'
+
 const Header = () => {
   return (
     <header><>
@@ -64,6 +65,7 @@ const Header = () => {
 
   </div>
     </>
+
     </header>
   );
 };

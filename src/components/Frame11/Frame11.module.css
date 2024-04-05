@@ -3,7 +3,7 @@
     width: 1500px;
     height: 587px;
     position: absolute;
-    top: 7722px;
+    top: 8200px;
     
     gap: 0px;
     opacity: 0px;
@@ -80,4 +80,35 @@ height: 28px;
     text-align: left;
 color:  rgba(255, 251, 251, 1);
 ;    
+  }
+
+  @media screen and (max-width: 768px) {
+
+    
+.container{
+  width: 750px;
+  height: 987px;
+  position: absolute;
+  top: 10200px;
+}
+    
+.box{
+  width: 700px;
+height: 319px;
+top: 83px;
+left: 75px;
+}
+
+.F11Btn {
+  width:  476px;
+height:  70px;
+position: relative;
+top: 142px;
+left: 70px;
+padding: 21px 56px 21px 56px;
+
+
+  
+}
+
   }

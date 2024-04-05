@@ -2,7 +2,7 @@
   width: 1430px;
   height: 1044px;
   position: absolute;
-  top: 5687px;
+  top: 6000px;
 }
 
 .Frame9 h2 {
@@ -136,3 +136,52 @@ h4 {
     background-color: #eee5ff;
     width: 81px;
 }   
+
+@media screen and (max-width: 768px){
+
+  .Frame9 {
+    width: 760px;
+    height: 944px;
+    top: 7000px;
+  }  
+
+
+  .Frame9 h2 {
+    width: 607px;
+    left: 101px;
+  }
+
+  .cardsContainer {
+    width: 760px;
+    height: 2100px;
+    padding: 0 0px;
+    display: flex;
+    flex-direction:  column;
+  }
+  .card {
+    margin: 0;
+    padding: 0;
+    width: 420px;
+    height: 650px;
+  
+    position: relative;
+    top: 90px;
+    left: 200px;
+    
+  }
+  .cardFooterPara {
+    width: 344px;
+    height: 108px;
+    padding: 0px 15px 0 35px;
+  
+  
+    justify-content: center;
+    text-align: left;
+    
+  
+    color: rgba(106, 106, 106, 1);
+  }
+  
+
+  
+}
