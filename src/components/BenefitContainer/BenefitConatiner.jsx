@@ -7,6 +7,7 @@ import box4 from '../../images/box4.png'
 import box5 from '../../images/box5.png'
 import box6 from '../../images/box6.png'
 
+
 const BenefitConatiner = () => {
   return (
     <div className={styles.mainConatiner}>
